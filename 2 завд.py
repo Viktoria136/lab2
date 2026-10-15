@@ -1,9 +1,6 @@
-n = int(input("Введіть число n = "))
-count = 0
+N = int(input("Введіть N = "))
 
-while n >= 0:
-    n -= 3
-    count += 1
+for i in range(1, N + 1):
+    print(i ** 2, end=" ")
 
-print("Цикл виконався разів:", count)
 input()
